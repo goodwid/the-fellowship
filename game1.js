@@ -1,3 +1,29 @@
+
+Stage.data = [];
+
+//constructor function to pull in data
+function Stage (stages) {
+  this.stage   = stages.stage;
+  this.image   = stages.image;
+  this.story   = stages.story;
+  this.button1 = stages.button1;
+  this.button2 = stages.button2;
+  this.button3 = stages.button3;
+  this.button4 = stages.button4;
+}
+
+//add Handlebars template
+Stage.prototype.toHtml = function() {
+  var template = Handlebars.compile($('#script-template').text());
+  return template(this);
+};
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  var ident = {
     b1: document.getElementById('b1'),
     b2: document.getElementById('b2'),
