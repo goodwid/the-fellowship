@@ -1,6 +1,6 @@
 var gameData = [
   {
-    stage: 'one',
+    stage: 'q1',
     image: '<img class="gamePic" src="img/game/q1.jpg" alt="Hobbit bar" title="Hobbits at the Green Dragon" />',
     story: '<p class="gameText">It\'s a Friday night and after a long week of farming you pop into the Green Dragon for a pint. You see Frodo Baggins, Samwise Gamgee, Pippin Took and Merry Brandybuck sitting at a table and join them. They\'re talking about an adventure they\'re going on to Rivendell and ask if you would like to join them. You think about it for a minute, it has been awhile since you\'ve left the Shire, but at the same time, why would you ever want to leave the Shire? What do you do?</p>',
     button1: '<button type="click" id="b1" class="game">Say thanks, but no thanks, a night at the Green Dragon is adventure enough for&nbsp;you. </button><br /><br />',
@@ -8,7 +8,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn1" class="game" hidden> You die of alcohol poisoning. Start again!</button>',
   },
   {
-    stage: 'two',
+    stage: 'q2',
     image: '<img class="gamePic" src="img/game/gimliomg.gif" alt="Gimli gawps in wonder" title="Gimli gawps in wonder"/>',
     story: '<p class="gameText">You arrive in Rivendell and gasp in awe of how beautiful it is. The elves are so kind, and the food, while lacking meat, is delicious. There is also a never-ending supply of wine. A council is held for the fate of the Ring and the Fellowship of the Ring is formed to take it Mordor and destroy it at Mount Doom. Do you join the Fellowship and save Middle Earth? Or do you stay in Rivendell and enjoy the company of elves?</p>',
     button1: '<button type="click" id="b4" class="game" hidden>You think of your friends and family - Of course you want to save Middle Earth!</button><br /><br />',
@@ -16,7 +16,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn2" class="game" hidden>Until you drink too much wine and fall into the ford. Go back a step!</button>',
   },
   {
-    stage: 'three',
+    stage: 'q3',
     image: '<img class="gamePic" src="img/game/uruk.gif" alt="Uruk-hai" title="Uruk-hai attack" />',
     story: '<p class="gameText">You made it safely through the mines of Moria, but are mourning the loss of your friend and mentor, Gandalf. You want a day to rest and pay your respect but Aragorn makes the group continue moving. Even though the group is moving fast, a deadly group of Uruk-hai arrive and attack. You see Frodo run to the boats and Sam following, while Merry and Pippin are being kidnapped by the Uruk-hai. Do you follow Sam and Frodo? Fight for Merry and Pippin? Or fight with Aragorn?</p>',
     button1: '<button type="click" id="b5" class="game" hidden>Fight for Merry and Pippin! You won\'t lose anymore of your friends.</button><br /><br />',
@@ -25,7 +25,7 @@ var gameData = [
     button4: '<button type="click" id="deathbtn3" class="game" hidden>You get pierced by an arrow and die next to Boromir. Go back a step!</button>',
   },
   {
-    stage: 'four',
+    stage: 'q4',
     image: '<img class="gamePic" src="img/game/smeagol.gif" alt="Smeagol" title="Smeagol" />',
     story: '<p class="gameText">You, Frodo and Sam have spent over a day walking in the same circle trying to find the right road to Mordor. You\'re hungry, frustrated, and don\'t know the fate of your other friends. You hear some branches break behind you and watch as Sam captures Gollum, a horrible little creature who has been following you for days. He begs for mercy and promises to take you to Mount Doom to destroy the ring. You know that he was the original ring bearer and he would do anything to get it back, but on the other hand, he does know the way to Mordor and it is 3 vs 1. What do you do?</p>',
     button1: '<button type="click" id="b8" class="game" hidden>You follow Gollum.</button><br /><br />',
@@ -33,7 +33,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn4" class="game" hidden>You are hypnotized by the light in the Dead Marshes and drown. Go back a step!</button>',
   },
   {
-    stage: 'five',
+    stage: 'q5',
     image: '<img class="gamePic" src="img/game/nazgul-funny.jpeg" alt="Sauron" title="The word of Sauron"/>',
     story: '<p class="gameText">Gollum gleefully leads you to Mordor, awkwardly talking to himself when he thinks you\'re not listening. The four of you are found and taken by men of Gondor, one who turns out to be Boromir\'s brother, Faramir. While fighting off an attack from Nazgul, Faramir tries to take the Ring from Frodo but you tell him how it drove his brother mad. He allows you to go free, but warns Gollum not to play tricks. Do you try to ditch Gollum again? Or continue to follow him?</p>',
     button1: '<button type="click" id="b9" class="game" hidden>Leave Gollum to the wrath of the men of Gondor</button><br /><br />',
@@ -41,7 +41,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn5" class="game" hidden>You fall off a cliff and die as you climb towards Mordor. Go back a step!</button><br /><br />',
   },
   {
-    stage: 'six',
+    stage: 'q6',
     image: '<img class="gamePic" src="img/game/frodowtf.gif" alt="Frodo" title="Frodo WTF?"/>',
     story: '<p class="gameText">Gollum tricks Frodo into abandoning Sam, and then he leaves the two of. You end up in a dark cave and hear something behind you. As you turn around you see Frodo frothing at the mouth and a large spider wrapping him in her web. Panic fills you as Shelob takes Frodo and comes back for you. You want to run away when suddenly you see Sam running towards you. Do you turn the other way and hope to escape, or fight with Sam?</p>',
     button1: '<button type="click" id="b11" class="game" hidden>Turn and run.</button><br /><br />',
@@ -49,7 +49,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn6" class="game" hidden>You get pricked by Shelob and die. Go back a step!</button>',
   },
   {
-    stage: 'seven',
+    stage: 'q7',
     image: '<img class="gamePic" src="img/game/sam-credit.jpeg" alt="Sam" title="Sam Wisegamgee"/>',
     story: '<p class="gameText">You and Sam fight to kill Shelob, but when you go to check on Frodo, you realize he\'s dead. You both decide to take the Ring and his sword, Sting, to finish the journey you started. You hear a noise and hide behind rocks, and you see a couple of Orcs. They see Frodo wrapped in Shelob\'s web, say he\'s just been knocked out and take him. You and Sam look at each other. Do you follow Frodo? Or continue on your quest to get rid of the Ring?</p>',
     button1: '<button type="click" id="b13" class="game" hidden>Continue on your journey, it\'s what Frodo (pre-Ring) would have wanted you to do.</button><br /><br />',
@@ -57,7 +57,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn7" class="game" hidden>You\'re caught by Orcs and killed. Go back a step!</button>',
   },
   {
-    stage: 'eight',
+    stage: 'q8',
     image: '<img class="gamePic" src="img/game/frodo-ring.gif" alt="Frodo and ring" title="Frodo wrestles with his decision"/>',
     story: '<p class="gameText">You and Sam rescue Frodo and the three of you fight hunger and thirst to climb up Mount Doom and are just 20 feet away from the volcanic fire. Frodo suddenly turns and claims the Ring for his own. Gollum shows up and attacks Frodo for the Ring. As the two wrestle around, the Ring falls to the ground in front of you. As you pick it up to throw into the lava, you suddenly hear someone whisper your name and feel a great surge of power run through you. The voice promises you great power and respect. All you have to do is put the Ring on and become invisible. What do you do?</p>',
     button1: '<button type="click" id="b15" class="game" hidden>Listen to the voice and become to most powerful being on Middle Earth.</button><br /><br />',
@@ -65,7 +65,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn8" class="game" hidden>NOOOOOO YOU HAVE DESTROYED MIDDLE EARTH AND KILLED US ALL</button>',
   },
   {
-    stage: 'fourB',
+    stage: 'q4b',
     image: '<img class="gamePic" src="img/game/Isengard.gif" alt="To Isengard" title="To Isengard!" />',
     story: '<p class="gameText">As Merry and Pippin are being carried away by Orcs, Aragorn closes Boromir\'s eyes and you, Legolas, Gimli and Aragorn lay him in a boat to go over the Falls of Rauros. Gimli wants to follow after Frodo and Sam, but Aragorn says Merry and Pippin must be rescued. The group decides to rescue Merry and Pippin. You want to save your friends but you\'re so exhausted, mentally and physically. Do you turn back to return to your home? Or do you join you friends?</p>',
     button1: '<button type="click" id="b8b" class="game" hidden>Take a deep breath and start sprinting after Legolas.</button><br /><br />',
@@ -73,7 +73,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn4b" class="game" hidden>You make it two days before you\'re killed by something in Middle Earth. Go back a step!</button>',
   },
   {
-    stage: 'fiveB',
+    stage: 'q5b',
     image: '<img class="gamePic" src="img/game/gandalfbitches.gif" alt="Gandalf" title="Gandalf" />',
     story: '<p class="gameText">Legolas is tracking Merry and Pippin when the four of you are approached by the Riders of Rohirrim, the army of Rohan. They tell you they slaughtered a group of Uruk-hai the night before and left no one alive, which means Merry and Pippin as well. They give you horses and you ride to the battle site. You learn that Merry and Pippin are alive, and you meet Gandalf again! But this time he is Gandalf the White. He takes you to Rohan where he stops the king from being possessed and tells Rohan they need to prepare for war against Saruman. The king doesn\'t want to fight, but instead take cover in Helms Deep. Do you agree with the king? Or believe you need to get an army ready?</p>',
     button1: '<button type="click" id="b9b" class="game" hidden>Why don\'t we all just hide and stay safe in Helms Deep?</button><br /><br />',
@@ -81,7 +81,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn5b" class="game" hidden>Helms Deep is attacked and everyone dies. Go back a step!</button>',
   },
   {
-    stage: 'sixB',
+    stage: 'q6b',
     image: '<img class="gamePic" src="img/game/elrond.jpg" alt="Elrond" title="Elrond" />',
     story: '<p class="gameText">You fought the battle of Helms Deep and came out alive. Now you must gather armies of Men to fight the battle against Sauron. You, Aragorn, Gimli, Legolas and warriors of Rohan set out for another battle. Elrond, elf king and father of Arwen, comes to tell Aragorn that Arwen is dying and gives him a sword forged from Narsil. This was the sword that Isilidur, Aragorn\'s forefather, used to cut off the Ring from Sauron. Elrond tells Aragorn he must take the Path of the Dead if he wants to defeat the Corsair army. Do you join Aragorn, Legolas and Gimli to recruit the Army of the Dead? Or stay with King Theoden and the army of Rohan?</p>',
     button1: '<button type="click" id="b12b" class="game" hidden>Join Aragorn, Legolas and Gimli. What\'s another near death adventure?</button><br /><br />',
@@ -89,7 +89,7 @@ var gameData = [
     button3: '<button type="click" id="deathbtn6b" class="game" hidden>You decide last minute to join Aragorn and die before you can find him. Go back one step!</button>',
   },
   {
-    stage: 'sevenB',
+    stage: 'q7b',
     image: '<img class="gamePic" src="img/game/aragorn-yolo.gif" alt="Aragon" title="Aragon" />',
     story: '<p class="gameText">You\'ve done it! You helped Aragorn recruit the Army of the Dead and defeat the Corsair army winning the battle taking place. You think it\'s all over until Aragorn says they must create a distraction at the Black Gate in hopes of helping Frodo and Sam get to Mount Doom. Another battle. And this time surely death as you will be outnumbered. Do you stay in Gondor to avoid this suicide-wish? Or fight till the end to save Middle Earth?</p>',
     button1: '<button type="click" id="b13b" class="game" hidden>No thank you. You\'ve done enough fighting for 10 lifetimes and you don\'t have a death wish.</button><br /><br />',
