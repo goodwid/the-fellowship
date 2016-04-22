@@ -20,6 +20,7 @@
 <!--end template-->
 </head>
 
+
 <body class="game" id="">
 <div id="gameBody">
 
@@ -33,11 +34,13 @@
   </nav>
 </header>
 
+<p id="thisIsIt"></p>
+
 <!-- GLG/RS -->
 <main>
   <h2 class="gameIntro">Your adventure begins...</h2>
 <section><h3 id="intro"></h3></section>
-<section id="q1">
+<!--<section id="q1">
   <img class="gamePic" src="img/game/q1.jpg" alt="Hobbit bar" title="Hobbits at the Green Dragon" />
   <p class="gameText">It's a Friday night and after a long week of farming you pop into the Green Dragon for a pint. You see Frodo Baggins, Samwise Gamgee, Pippin Took and Merry Brandybuck sitting at a table and join them. They're talking about an adventure they're going on to Rivendell and ask if you would like to join them. You think about it for a minute, it has been awhile since you've left the Shire, but at the same time, why would you ever want to leave the Shire? What do you do?</p>
   <button type="click" id="b1" class="game">Say thanks, but no thanks, a night at the Green Dragon is adventure enough for&nbsp;you. </button><br /><br />
@@ -163,7 +166,7 @@
   <p class="gameText">You fall down while fighting with an orc. You see his sword rise above you, and as you anticipate it coming down the earth shakes and the Eye of Sauron is looking every where in panic. The ground starts to split and you realize it's been done. Frodo and Sam succeeded! Middle Earth is saved and it's all thanks to you! Congratulations!</p>
   <img class="gamePic" src="img/game/hobbitsclapping.gif" alt="Hobbits clapping" title="Hobbits clapping" />
   <a href="game.html"><button type="click" id="finish" class="game">Play Again!</button></a>
-</section>
+</section>-->
 
 </main>
 
@@ -171,8 +174,9 @@
 Copyright 2015 by the Fellowship/CodeFellows SEA-B34-Foundations
 </footer>
   
-  <script src="/vendor/scripts/jquery-2.1.4.js"></script>
-  <script src="/vendor/scripts/handlebars.js"></script>
+  <script type="text/javascript" src="lib/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="lib/handlebars-latest.js"></script>
+  <script src='/data/gamedata.js'></script>
   <script type="text/javascript" src="game1.js"></script>
 </div>
 </body>
